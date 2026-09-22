@@ -34,13 +34,11 @@ Nach dem Import bleibt die Vorlage auf deinem Gerät und lässt sich offline ver
 
 ## Deine Vorlage beisteuern
 
-Einreichungen sind per E-Mail an **templates@easyepr.com** vorgesehen. Du brauchst kein GitHub-Konto.
+Du kannst deine Vorlage direkt auf GitHub **per Pull Request** beisteuern: Repository forken, die bereinigte JSON-Datei unter `templates/` hochladen und einen Pull Request öffnen.
 
-> Einrichtungshinweis: Die Aktivierung dieses Postfachs ist noch nicht bestätigt. Bitte noch keine Vorlagen an diese Adresse senden.
+In der App unter **Community-Vorlagen → Vorlage für die Community vorbereiten** die bereinigte Prüfdatei exportieren. Original-PDFs, eingefügte Texte und Bilder werden dabei nicht mitgegeben. Prüfe auch Vorlagen- und Labelnamen auf persönliche Angaben: Forks und Pull Requests sind öffentlich sichtbar.
 
-In der App unter **Community-Vorlagen → Vorlage für die Community vorbereiten** die bereinigte Prüfdatei exportieren. Original-PDFs, eingefügte Texte und Bilder werden dabei nicht mitgegeben. Prüfe auch Vorlagen- und Labelnamen auf persönliche Angaben. Die Datei anschließend selbst an die E-Mail anhängen; ein E-Mail-Link kann keine lokale Datei automatisch anhängen.
-
-Beschreibe Versanddienst, Land, Dokumentaufbau und Ausgabeformat. **cz.design prüft jede Einreichung. Erst nach Freigabe erscheint sie hier.** E-Mail-Adressen und Korrespondenz werden nicht veröffentlicht.
+Beschreibe Versanddienst, Land, Dokumentaufbau und Ausgabeformat. **cz.design prüft jede Einreichung. Erst nach Freigabe und Zusammenführen erscheint sie im Katalog.**
 
 [Ausführlicher Einreichungsablauf](CONTRIBUTING.md)
 
@@ -59,6 +57,6 @@ Der **Hilfe-Button** öffnet eine Tour mit Hervorhebung der wichtigen Elemente d
 
 ## English
 
-This is the public template library for **AutoPDFCut by cz.design**. Templates describe PDF crop areas and print settings; they do not contain original PDFs or purchase postage. Import an approved JSON template into AutoPDFCut, then use it offline with PDFs sharing the same layout. Store links are listed above. Submissions are reviewed by cz.design before publication. The submission mailbox is still being set up; please wait before sending files.
+This is the public template library for **AutoPDFCut by cz.design**. Templates describe PDF crop areas and print settings; they do not contain original PDFs or purchase postage. Import an approved JSON template into AutoPDFCut, then use it offline with PDFs sharing the same layout. Store links are listed above. Submissions are reviewed by cz.design before publication. To contribute, fork this repository, upload a sanitized JSON file under `templates/`, and open a pull request. Describe the document layout and output format. Forks and pull requests are public: remove personal data before uploading.
 
 Powered by [EasyEPR.com](https://www.easyepr.com/)

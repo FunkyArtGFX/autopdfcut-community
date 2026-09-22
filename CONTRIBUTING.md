@@ -1,8 +1,6 @@
-# Eine Vorlage einreichen
+# Eine Vorlage auf GitHub einreichen
 
-Einreichungsadresse: **templates@easyepr.com**. Kein GitHub-Konto erforderlich.
-
-**Die Aktivierung des Postfachs ist noch nicht bestätigt. Bitte vorerst nicht senden.**
+Du kannst deine eigenen Vorlagen hier hochladen und zur Prüfung vorschlagen. Ein GitHub-Konto genügt; direkte Schreibrechte auf das Hauptarchiv brauchst du nicht.
 
 ## 1. Vorlage prüfen und exportieren
 
@@ -10,21 +8,22 @@ Teste Ausschnitte, Seitenzuordnung, Format und Drehung mit einer passenden PDF. 
 
 Unter **Vorlagen → Community-Vorlagen → Vorlage für die Community vorbereiten** deine Vorlage auswählen und **Prüfdatei exportieren** drücken. Dieser Export entfernt eingefügte Texte und Bilder und enthält keine Original-PDF. Datumsfelder bleiben dynamisch. Verwende diesen Export statt einer privaten Vorlagensicherung. Prüfe Vorlagen- und Labelnamen selbst auf persönliche Angaben.
 
-## 2. E-Mail vorbereiten
+**Forks, hochgeladene Dateien und Pull Requests sind öffentlich.** Lade keine echten Kundenadressen, Sendungsnummern, Original-PDFs oder fremden Logos hoch. Reiche nur Vorlagen ein, deren öffentliche Weitergabe du erlauben kannst.
 
-- Empfänger: `templates@easyepr.com`
-- Betreff: `AutoPDFCut – Community-Vorlage`
-- Anhang: `autopdfcut-community-vorlage.json`
-- Beschreibung: Versanddienst, Land, Art der PDF, Seitenanzahl, Position der Labels und Ausgabeformat.
+## 2. Datei hochladen
 
-Beispiel: „DHL, Deutschland, Versandlabel in der oberen Hälfte einer A4-Seite, eine PDF-Seite, Ausgabe 100 × 150 mm.“
+1. Oben auf **Fork** klicken und eine Kopie des Repositories in deinem GitHub-Konto erstellen.
+2. In deinem Fork den Ordner **templates** öffnen.
+3. **Add file → Upload files** auswählen und die bereinigte JSON-Datei hochladen. Einen verständlichen Dateinamen wählen, etwa `dhl-de-a4-obere-haelfte.json`.
+4. Mit **Commit changes** speichern.
+5. **Contribute → Open pull request** auswählen. Ziel ist `FunkyArtGFX/autopdfcut-community`, Branch `main`.
 
-Bitte keine echten Kundenadressen, Sendungsnummern, Original-PDFs oder fremden Logos mitsenden. Reiche nur Vorlagen ein, deren öffentliche Weitergabe du erlauben kannst. Für eine Namensnennung bitte ausdrücklich einen öffentlichen Anzeigenamen angeben; deine E-Mail-Adresse veröffentlichen wir nicht.
+Beschreibe im Pull Request Versanddienst, Land, Art der PDF, Seitenanzahl, Position der Labels und Ausgabeformat. Beispiel: „DHL, Deutschland, Versandlabel in der oberen Hälfte einer A4-Seite, eine PDF-Seite, Ausgabe 100 × 150 mm.“
 
-Du hängst die Datei selbst im Mailprogramm an und sendest die Nachricht selbst ab. AutoPDFCut verschickt nichts automatisch.
+Den Katalog und die endgültige Vorlagen-ID übernimmt cz.design bei der Freigabe. Du musst `catalog.json` nicht selbst bearbeiten.
 
-## 3. Freigabe abwarten
+## 3. Prüfung und Freigabe
 
-cz.design prüft die Datei, fragt gegebenenfalls nach und nimmt nur freigegebene Vorlagen in den Katalog auf. Eine Einreichung ist noch keine Freigabe. Ungeprüfte Anhänge und E-Mail-Verläufe bleiben außerhalb dieses öffentlichen Repositories.
+cz.design prüft deine Vorlage und stellt Rückfragen direkt im Pull Request. Erst nach Freigabe wird sie in das Hauptarchiv und den Katalog aufgenommen. Ein Upload in deinen Fork oder ein offener Pull Request ist noch keine Freigabe.
 
-Fehler bitte mit Vorlagenname/ID und Beschreibung ebenfalls per E-Mail melden.
+Fehler bei bestehenden Vorlagen kannst du über die **Issues** dieses Repositories mit Vorlagenname/ID und einer kurzen Beschreibung melden. Auch dort bitte keine persönlichen Daten posten.
